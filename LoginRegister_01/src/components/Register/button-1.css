@@ -1,0 +1,63 @@
+.button-1 {
+    position: relative;
+    top: 45%;
+    left: 14.5%;
+  }
+  
+  .btnGradient-1{
+    align-items: center;
+    background-image: linear-gradient(144deg, rgba(9,9,121,1), #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 100px;
+    padding: 14px 102px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  /* .btnGradient-1:active,
+  .btnGradient-1:hover {
+    outline: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .btnGradient-1 {
+      font-size: 24px;
+      min-width: 120px;
+    }
+  }
+
+  .btnGradient-1::before{
+    content:"";
+    display:block;
+    position: absolute;
+    inset:0;
+    z-index:-1;
+    border-radius:6px;
+    width:259px;
+    left:10px;
+  }
+
+
+  .btnGradient-1::before{
+    background-image: linear-gradient(to bottom right, #2af4ff, #1dbdf8);
+    transition: transform 200ms;    
+  }
+
+  .btnGradient-1:hover::before,
+  .btnGradient-1:focus::before{
+    transform:scale(1.1);
+  } */
